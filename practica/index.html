@@ -6,15 +6,22 @@
     <title>Document</title>
 </head>
 <body>
-    <h1 id="texto"> soy un h1 </h1>
+    
     <script>
-        let numerol, numero2;
+let nombre = prompt("ingrese su nombre porfis:") ;
+
+        let numerol, numero2,numero3;
         numero1 = Number(prompt("ingrese porfis el numero 1:")) ;
         numero2 = Number(prompt("ingrese porfis el numero 2:")) ;
-        total = numero1 + numero2
+        numero3 = Number(prompt("ingrese porfis el numero 3:")) ;
+       
+        numero1= numero1*0.3
+        numero2= numero2*0.35
+        numero3= numero3*0.35
+        total = (numero1 + numero2 + numero3)
 
 
-         alert(" la suma de tus numeros es: " + total);
+         alert(" El promedio de tus calificaciones" + nombre + " es: " + total);
 
 
 
